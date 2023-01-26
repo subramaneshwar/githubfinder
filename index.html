@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Github Finder</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="title">
+            <img id="git" src="github.png" alt="">
+            <h1>Gihub Finder</h1>
+        </div>
+        <div class="list">
+            <p>HOME</p>
+            <p>ABOUT</p>
+        </div>
+    </div>
+    <main>
+        <div class="top">
+            <div class="left">
+                <p class="line">Let's stalk someone on Github</p>
+                <div class="text">
+                    <input type="text" id="inputs" placeholder="Enter the user">
+                    <button onclick="search()" class="go">GO</button>
+                </div>
+            </div>
+            <div class="right">
+                <button onclick="myclear()" id="clear">CLEAR</button>
+            </div>
+        </div>
+        <div id="bottom">
+        </div>
+    </main>
+    <script src="index.js"></script>
+</body>
+
+</html>
